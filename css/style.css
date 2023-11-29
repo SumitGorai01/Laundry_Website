@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header ul li a{
+    color: white;
+    
+    
+}
+#header nav{
+  
+    background-color: rgb(65, 214, 147);
+    font-weight: bold;
+    color: white;
+}
+#header a{
+    justify-content: space-evenly; 
+     margin-left: 50px;
+    padding-left: 0;
+} 
+#header nav a img{
+    padding: 0;
+    margin: 0;
+
+}
+/* section */
+section{
+    width: 100%;
+}
+section>div{
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn :hover{
+    background: transparent;
+    color: rgb(43, 226, 195);
+}
+
+.iconLeft{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading h1{
+    font-size: 40px;
+    color: green ;
+}
+.heading p{
+    color:rgb(111, 35, 77);
+    text-align: center;
+}
+a{
+    text-decoration:dotted;
+}
+
+
+/* responsive design */
+@media only screen and (max-width: 768px){
+    section>div{
+        width: 90%;    
+
+    }
+    .heading h1{
+        font-size: 50px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1080){
+    section>div{
+        width: 90%;    
+
+    }
+    .heading h1{
+        font-size: 50px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+    }
+}
